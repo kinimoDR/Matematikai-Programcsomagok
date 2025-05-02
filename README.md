@@ -11,7 +11,9 @@ Egy 30 epochos futtatás után a végső modellünknek 76%-os pontosságot siker
 A readme további részében ezen modell tanítási- és kiértékelési fázisáról készült statisztikai adatok találhatók; egy link, amely tartalmazza a teljes kódot; egy vázlatos leírás a program felépítéséről; valamint a projekt elkészítéséhez használt segédanyagok.
 
 ![Confusion matrix](Confusion matrix.png)
+
 ![Predikciók az első 13 tesztképre](14 kép.png)
+
 ![Loss és accuracy változása]()
 
 A kód elérési linkje: https://colab.research.google.com/drive/1vRqt2sXcfFtVR7j0cl4WLBtNMiMATbqg#scrollTo=eIOFKIQNOl1r
