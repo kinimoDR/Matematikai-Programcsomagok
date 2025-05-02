@@ -10,9 +10,9 @@ A kód megírásához a Google Colab (Jupyter Notebook) felületet használtuk, 
 Egy 30 epochos futtatás után a végső modellünknek 76%-os pontosságot sikerült elérnie (ami azt jelenti, hogy a tanítás után egy számára ismeretlen tesztképről 76% eséllyel állapította meg helyesen, hogy mi van rajta).
 A readme további részében ezen modell tanítási- és kiértékelési fázisáról készült statisztikai adatok találhatók; egy link, amely tartalmazza a teljes kódot; egy vázlatos leírás a program felépítéséről; valamint a projekt elkészítéséhez használt segédanyagok.
 
-![Confusion matrix](Confusion matrix.png)
+![Confusion matrix](Confusion_matrix.png)
 
-![Predikciók az első 13 tesztképre](14 kép.png)
+![Predikciók az első 13 tesztképre](14_kép.png)
 
 ![Loss és accuracy változása]()
 
