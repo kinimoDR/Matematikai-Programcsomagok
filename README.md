@@ -12,7 +12,7 @@ A readme további részében ezen modell tanítási- és kiértékelési fázis�
 
 ![Confusion matrix](Confusion_matrix.png)
 
-![Predikciók az első 13 tesztképre](14_kép.png)
+![Predikciók az első 13 tesztképre](13_kep.png)
 
 ![Loss és accuracy változása]()
 
