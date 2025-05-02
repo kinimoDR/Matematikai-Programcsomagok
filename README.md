@@ -16,8 +16,9 @@ A readme további részében ezen modell tanítási- és kiértékelési fázis�
 
 ![Loss és accuracy változása]()
 
-A kód elérési linkje: https://colab.research.google.com/drive/1vRqt2sXcfFtVR7j0cl4WLBtNMiMATbqg#scrollTo=eIOFKIQNOl1r
-Vázlatos felépítése:
+### A kód elérési linkje: 
+https://colab.research.google.com/drive/1vRqt2sXcfFtVR7j0cl4WLBtNMiMATbqg#scrollTo=eIOFKIQNOl1r
+### Vázlatos felépítése:
 - Képek feltöltése
 - Adathalmazok létrehozása 
 - A konvolúciós neurális háló (CNN) definiálása
