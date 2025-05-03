@@ -39,11 +39,12 @@ A README további részében megtalálod:
 - Colab‑ban: https://colab.research.google.com/github/<felhasznalo>/<repo>/blob/main/Matprogrind2.ipynb
     - Válaszd a Runtime > Change runtime type > GPU opciót, majd Run all.
 
-- Lokálisan:
-git clone https://github.com/<felhasznalo>/<repo>.git
-cd <repo>
-pip install -r requirements.txt
-jupyter notebook Matprogrind2.ipynb
+- Lokálisan: <br>
+
+  git clone https://github.com/<felhasznalo>/<repo>.git <br>
+  cd <repo> <br>
+pip install -r requirements.txt <br>
+jupyter notebook Matprogrind2.ipynb <br>
 
 **Inference gyorsan (parancssorból):**
     python predict.py path/to/image.jpg
