@@ -69,6 +69,7 @@ Confusion matrix:
 
 ![Predikciók az első 13 tesztképre](13_kep.png)
 
+![Loss és accuracy változása](Loss_es_accuracy.png)
 
 ### A kód elérési linkje: 
 https://colab.research.google.com/drive/1vRqt2sXcfFtVR7j0cl4WLBtNMiMATbqg#scrollTo=eIOFKIQNOl1r
