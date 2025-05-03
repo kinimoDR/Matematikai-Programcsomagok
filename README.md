@@ -12,56 +12,56 @@ A kód megírásához a Google Colab (Jupyter Notebook) felületét használ
 
 A README további részében megtalálod:
 
-  a modell tanítási és kiértékelési fázisának legfontosabb statisztikáit,
+- a modell tanítási és kiértékelési fázisának legfontosabb statisztikáit,
 
-  a teljes notebookhoz vezető linket,
+- a teljes notebookhoz vezető linket,
 
-  a program felépítésének rövid vázlatát,
+- a program felépítésének rövid vázlatát,
 
-  valamint az általunk használt segédanyagok listáját.
+- valamint az általunk használt segédanyagok listáját.
 
-Előfeltételek
+**Előfeltételek**
 
-Python 3.10 vagy újabb
+- Python 3.10 vagy újabb
 
-PyTorch 2.0 vagy újabb (CUDA 11.x, ha GPU‑t használsz)
+- PyTorch 2.0 vagy újabb (CUDA 11.x, ha GPU‑t használsz)
 
-NumPy
+- NumPy
 
-scikit‑learn (kiértékeléshez, például confusion matrix)
+- scikit‑learn (kiértékeléshez, például confusion matrix)
 
-matplotlib és seaborn (grafikonokhoz)
+- matplotlib és seaborn (grafikonokhoz)
 
-tqdm (progress‑bar‑ok)
+- tqdm (progress‑bar‑ok)
 
-Futtatás és használat
+**Futtatás és használat**
 
-Colab‑ban: https://colab.research.google.com/github/<felhasznalo>/<repo>/blob/main/Matprogrind2.ipynb
-Válaszd a Runtime > Change runtime type > GPU opciót, majd Run all.
+- Colab‑ban: https://colab.research.google.com/github/<felhasznalo>/<repo>/blob/main/Matprogrind2.ipynb
+    -Válaszd a Runtime > Change runtime type > GPU opciót, majd Run all.
 
-Lokálisan:
-git clone https://github.com/<felhasznalo>/<repo>.git
-cd <repo>
-pip install -r requirements.txt
-jupyter notebook Matprogrind2.ipynb
+- Lokálisan:
+    git clone https://github.com/<felhasznalo>/<repo>.git
+    cd <repo>
+    pip install -r requirements.txt
+    jupyter notebook Matprogrind2.ipynb
 
-Inference gyorsan (parancssorból):
-python predict.py path/to/image.jpg
-A predict.py a notebookból kivágott inferencia‑függvényre épül, és a képernyőre kiírja a top‑1 (és opcionálisan top‑3) találatot.
+**Inference gyorsan (parancssorból):**
+    python predict.py path/to/image.jpg
+    A predict.py a notebookból kivágott inferencia‑függvényre épül, és a képernyőre kiírja a top‑1 (és opcionálisan top‑3) találatot.
 
-Modell és eredmények
-Architektúra: 10 konvolúciós réteg, max‑pool, batch norm és ReLU blokkok, majd 2 fully‑connected réteg; a kimenet 14 neuronos softmax.
-Paraméterek: kb. 5,6 millió tanulható paraméter
-Optimalizáló: AdamW (tanulási ráta 1e‑4, weight_decay 1e‑2)
-Learning‑rate scheduler: exponenciális (gamma 0,95 epochonként)
-Early Stopping: patience 10, legjobb checkpoint models/cnn.pt
-Batch size: 64
-Bemeneti normalizálás: RGB képek, torchvision.transforms.Normalize([0.5, …])
+**Modell és eredmények**
+- Architektúra: 10 konvolúciós réteg, max‑pool, batch norm és ReLU blokkok, majd 2 fully‑connected réteg; a kimenet 14 neuronos softmax.
+- Paraméterek: kb. 5,6 millió tanulható paraméter
+- Optimalizáló: AdamW (tanulási ráta 1e‑4, weight_decay 1e‑2)
+- Learning‑rate scheduler: exponenciális (gamma 0,95 epochonként)
+- Early Stopping: patience 10, legjobb checkpoint models/cnn.pt
+- Batch size: 64
+- Bemeneti normalizálás: RGB képek, torchvision.transforms.Normalize([0.5, …])
 
-Metrikák
-Pontosság (top‑1): 76 %
-Átlagos top‑3: 93 %
-Macro‑F1: 0,74
+**Metrikák**
+- Pontosság (top‑1): 76 %
+- Átlagos top‑3: 93 %
+- Macro‑F1: 0,74
 
 Confusion matrix:
 ![Confusion matrix](Confusion_matrix.png)
