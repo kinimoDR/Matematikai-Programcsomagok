@@ -5,7 +5,7 @@
 
 # Előnézet:
 Projektünkben egy kezdő klasszifikációs modellt építettünk fel, főként a pytorch és numpy könyvtárak segítségével.
-Modellünket körülbelül 2000 ételeket tartalmazó 224x224-es képen, 14 kategóriában tanítottuk.
+Modellünket körülbelül 14.000 ételeket tartalmazó 224x224-es képen, 14 kategóriában tanítottuk.
 A kód megírásához a Google Colab (Jupyter Notebook) felületet használtuk, mivel a tanítófázis futtatásának felgyorsításához igénybe kellett vennünk a rendszeren keresztül ingyenesen elérhető GPU támogatást, valamint megkönyítette a csoportos munkát.  
 Egy 30 epochos futtatás után a végső modellünknek 76%-os pontosságot sikerült elérnie (ami azt jelenti, hogy a tanítás után egy számára ismeretlen tesztképről 76% eséllyel állapította meg helyesen, hogy mi van rajta).
 A readme további részében ezen modell tanítási- és kiértékelési fázisáról készült statisztikai adatok találhatók; egy link, amely tartalmazza a teljes kódot; egy vázlatos leírás a program felépítéséről; valamint a projekt elkészítéséhez használt segédanyagok.
