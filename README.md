@@ -40,10 +40,10 @@ A README további részében megtalálod:
     - Válaszd a Runtime > Change runtime type > GPU opciót, majd Run all.
 
 - Lokálisan:
-    git clone https://github.com/<felhasznalo>/<repo>.git
-    cd <repo>
-    pip install -r requirements.txt
-    jupyter notebook Matprogrind2.ipynb
+git clone https://github.com/<felhasznalo>/<repo>.git
+cd <repo>
+pip install -r requirements.txt
+jupyter notebook Matprogrind2.ipynb
 
 **Inference gyorsan (parancssorból):**
     python predict.py path/to/image.jpg
