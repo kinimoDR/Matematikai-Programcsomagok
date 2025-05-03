@@ -37,7 +37,7 @@ A README további részében megtalálod:
 **Futtatás és használat**
 
 - Colab‑ban: https://colab.research.google.com/github/<felhasznalo>/<repo>/blob/main/Matprogrind2.ipynb
-    -Válaszd a Runtime > Change runtime type > GPU opciót, majd Run all.
+    - Válaszd a Runtime > Change runtime type > GPU opciót, majd Run all.
 
 - Lokálisan:
     git clone https://github.com/<felhasznalo>/<repo>.git
