@@ -58,10 +58,14 @@ A kód megírásához a Google Colab (Jupyter Notebook) felületét használ
 
 #### Futtatás és használat (Google Colabban):
   1. Nyisd meg a Google Colab linket és jelentkezz be egy Google Drive fiókba.
-  2. Futtasd az 1-6. cellákat.
-     - Ha új modellt szeretnél létrehozni, akkor futtasd a 7. cellát.
+  2. Futtasd az 1-6. és a 9. cellákat.
+     - Ha új modellt szeretnél létrehozni, akkor futtasd a 7. cellát, majd kezdheted a 10. cella futtatásával a tanítást.
      - Ha a meglévő modelled szeretnéd használni (például kiértékelni vagy továbbtanítani), akkor töltsd fel annak elérési útvonalát a Google Drive meghajtódra, majd a 8. cellában helyettesítsd a példába a megfelelő         linket.
-     - 
+  3. A 11. cella futtatásával kiértékelheted a modelledet.
+  4. A 12. és 14. pont alatti cellák futtatásával plotolhatsz a modelledről készült diagramok.
+  5. A 13. pont alatti cellában elmentheted a modelledet. A shutil.copy függvény első argumentumában add meg a modelled nevét (.pt fájlformátumban), majd annak elérési útvonalát Drive-on. 
+  6. :)
+
 ### A kód elérési linkje: 
 https://colab.research.google.com/drive/1vRqt2sXcfFtVR7j0cl4WLBtNMiMATbqg#scrollTo=eIOFKIQNOl1r
 
