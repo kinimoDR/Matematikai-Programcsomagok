@@ -1,16 +1,16 @@
 # Matematikai-Programcsomagok
 
-## Projekt: Konvolúciós neurális hálózat 
-## Készítette: Szeidemann Márton, Rákosy Dominik, Merencsics Martin Marcell
+# Projekt: Konvolúciós neurális hálózat 
+# Készítette: Szeidemann Márton, Rákosy Dominik, Merencsics Martin Marcell
 
-# Előnézet:
+## Előnézet:
 Projektünkben egy kezdő klasszifikációs modellt építettünk fel, főként a PyTorch és NumPy könyvtárak segítségével. Modellünket körülbelül 14 000 darab, 224×224‑es felbontású ételfotón (FOOD‑14 adathalmaz) tanítottuk, 14 különböző kategóriára.
 
 A kód megírásához a Google Colab (Jupyter Notebook) felületét használtuk, mert a tanítófázis futtatásának felgyorsításához igénybe vettük a rendszeren keresztül ingyenesen elérhető GPU‑t, és a kollaboratív munka is egyszerűbb volt.
 
 30 epochos tanítás után a végső modell 76 % pontosságot ért el (azaz egy számára ismeretlen tesztképen körülbelül 76 % eséllyel mondta meg helyesen, hogy mi látható rajta).
 
-### A README további részében megtalálod:
+## A README további részében megtalálod:
 
 - a modell tanítási és kiértékelési fázisának legfontosabb statisztikáit,
 
@@ -22,7 +22,7 @@ A kód megírásához a Google Colab (Jupyter Notebook) felületét használ
 
 - valamint az általunk használt segédanyagok listáját.
 
-**Előfeltételek**
+#### Előfeltételek
 
 - Python 3.10 vagy újabb
 
@@ -36,7 +36,7 @@ A kód megírásához a Google Colab (Jupyter Notebook) felületét használ
 
 - tqdm (progress‑bar‑ok)
 
-**Futtatás és használat**
+#### Futtatás és használat
 
 - Colab‑ban: https://colab.research.google.com/github/<felhasznalo>/<repo>/blob/main/Matprogrind2.ipynb
     - Válaszd a Runtime > Change runtime type > GPU opciót, majd Run all.
@@ -48,10 +48,7 @@ A kód megírásához a Google Colab (Jupyter Notebook) felületét használ
 pip install -r requirements.txt <br>
 jupyter notebook Matprogrind2.ipynb <br>
 
-**Inference gyorsan (parancssorból):**
-    python predict.py path/to/image.jpg
-    A predict.py a notebookból kivágott inferencia‑függvényre épül, és a képernyőre kiírja a top‑1 (és opcionálisan top‑3) találatot.
-### Vázlatos felépítése:
+#### Vázlatos felépítése:
 - Képek feltöltése
 - Adathalmazok létrehozása 
 - A konvolúciós neurális háló (CNN) definiálása
@@ -60,7 +57,7 @@ jupyter notebook Matprogrind2.ipynb <br>
 - Kiértékelés 
 - Statisztika
 
-**Modell és eredmények**
+#### Modell és eredmények
 - Architektúra: 10 konvolúciós réteg, max‑pool, batch norm és ReLU blokkok, majd 2 fully‑connected réteg; a kimenet 14 neuronos softmax.
 - Paraméterek: kb. 5,6 millió tanulható paraméter
 - Optimalizáló: AdamW (tanulási ráta 1e‑4, weight_decay 1e‑2)
@@ -68,11 +65,6 @@ jupyter notebook Matprogrind2.ipynb <br>
 - Early Stopping: patience 10, legjobb checkpoint models/cnn.pt
 - Batch size: 64
 - Bemeneti normalizálás: RGB képek, torchvision.transforms.Normalize([0.5, …])
-
-**Metrikák**
-- Pontosság (top‑1): 76 %
-- Átlagos top‑3: 93 %
-- Macro‑F1: 0,74
 
 ### A kód elérési linkje: 
 https://colab.research.google.com/drive/1vRqt2sXcfFtVR7j0cl4WLBtNMiMATbqg#scrollTo=eIOFKIQNOl1r
