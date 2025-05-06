@@ -12,8 +12,6 @@ A kód megírásához a Google Colab (Jupyter Notebook) felületét használ
 
 ## A README további részében megtalálod:
 
-- a modell tanítási és kiértékelési fázisának legfontosabb statisztikáit,
-
 - használati utasítást a program saját használatra való beüzemeléséhez,
   
 - a teljes notebookhoz vezető linket,
@@ -21,6 +19,8 @@ A kód megírásához a Google Colab (Jupyter Notebook) felületét használ
 - egy képtesztelő interface-t,
 
 - a program felépítésének rövid vázlatát,
+
+- a modell tanítási és kiértékelési fázisának legfontosabb statisztikáit,
 
 - valamint az általunk használt segédanyagok listáját.
 
@@ -50,15 +50,6 @@ A kód megírásához a Google Colab (Jupyter Notebook) felületét használ
 pip install -r requirements.txt <br>
 jupyter notebook Matprogrind2.ipynb <br>
 
-#### Vázlatos felépítése:
-- Képek feltöltése
-- Adathalmazok létrehozása 
-- A konvolúciós neurális háló (CNN) definiálása
-- Előkészületek a tanításhoz/futtatókörnyezet és optimalizáló beállítása
-- Tanítás
-- Kiértékelés 
-- Statisztika
-
 #### Modell és eredmények:
 - Architektúra: 10 konvolúciós réteg, max‑pool, batch norm és ReLU blokkok, majd 2 fully‑connected réteg; a kimenet 14 neuronos softmax.
 - Paraméterek: kb. 9,6 millió 
@@ -67,6 +58,15 @@ jupyter notebook Matprogrind2.ipynb <br>
 - Early Stopping: patience 10, legjobb checkpoint models/cnn.pt
 - Batch size: 64
 - Bemeneti normalizálás: RGB képek, torchvision.transforms.Normalize([0.5, …])
+
+#### Vázlatos felépítése:
+- Képek feltöltése
+- Adathalmazok létrehozása 
+- A konvolúciós neurális háló (CNN) definiálása
+- Előkészületek a tanításhoz/futtatókörnyezet és optimalizáló beállítása
+- Tanítás
+- Kiértékelés 
+- Statisztika
 
 ### A kód elérési linkje: 
 https://colab.research.google.com/drive/1vRqt2sXcfFtVR7j0cl4WLBtNMiMATbqg#scrollTo=eIOFKIQNOl1r
