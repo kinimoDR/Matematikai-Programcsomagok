@@ -57,7 +57,7 @@ jupyter notebook Matprogrind2.ipynb <br>
 - Tanítás
 - Kiértékelés 
 - Statisztika
-- 
+
 **Modell és eredmények**
 - Architektúra: 10 konvolúciós réteg, max‑pool, batch norm és ReLU blokkok, majd 2 fully‑connected réteg; a kimenet 14 neuronos softmax.
 - Paraméterek: kb. 5,6 millió tanulható paraméter
