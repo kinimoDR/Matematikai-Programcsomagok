@@ -16,6 +16,8 @@ A README további részében megtalálod:
 
 - a teljes notebookhoz vezető linket,
 
+- egy képtesztelő interface-t,
+
 - a program felépítésének rövid vázlatát,
 
 - valamint az általunk használt segédanyagok listáját.
@@ -74,6 +76,9 @@ jupyter notebook Matprogrind2.ipynb <br>
 
 ### A kód elérési linkje: 
 https://colab.research.google.com/drive/1vRqt2sXcfFtVR7j0cl4WLBtNMiMATbqg#scrollTo=eIOFKIQNOl1r
+
+### Képtesztelő:
+https://colab.research.google.com/drive/1yzO-0z7EjpMd_zm0_lEMssianC9PbVro#scrollTo=YXVFuCjYQGip
 
 Confusion matrix:
 ![Confusion matrix](Confusion_matrix.png)
