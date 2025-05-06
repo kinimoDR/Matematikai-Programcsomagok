@@ -38,11 +38,6 @@ A kód megírásához a Google Colab (Jupyter Notebook) felületét használ
 
 - tqdm (progress‑bar‑ok)
 
-#### Futtatás és használat:
-
-- Colab‑ban: https://colab.research.google.com/github/<felhasznalo>/<repo>/blob/main/Matprogrind2.ipynb
-    - Válaszd a Runtime > Change runtime type > GPU opciót, majd Run all.
-
 #### Modell és eredmények:
 - Architektúra: 10 konvolúciós réteg, max‑pool, batch norm és ReLU blokkok, majd 2 fully‑connected réteg; a kimenet 14 neuronos softmax.
 - Paraméterek: kb. 9,6 millió 
@@ -61,6 +56,9 @@ A kód megírásához a Google Colab (Jupyter Notebook) felületét használ
 - Kiértékelés 
 - Statisztika
 
+#### Futtatás és használat (Google Colabban):
+  1. Nyisd meg a Google Colab linket és jelentkezz be egy Google Drive fiókba
+  2. 
 ### A kód elérési linkje: 
 https://colab.research.google.com/drive/1vRqt2sXcfFtVR7j0cl4WLBtNMiMATbqg#scrollTo=eIOFKIQNOl1r
 
