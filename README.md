@@ -76,6 +76,7 @@ https://drive.google.com/file/d/1ZRRA0lTy2cAhqYTZSZHQpnN8QwBrnVTB/view?usp=drive
 https://colab.research.google.com/drive/1yzO-0z7EjpMd_zm0_lEMssianC9PbVro#scrollTo=YXVFuCjYQGip
 
 Confusion matrix:
+
 ![Confusion matrix](Confusion_matrix.png)
 
 Predikciók az első 13 tesztképre:
