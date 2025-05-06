@@ -14,7 +14,7 @@ A kód megírásához a Google Colab (Jupyter Notebook) felületét használ
 
 - a modell tanítási és kiértékelési fázisának legfontosabb statisztikáit,
 
-- használati utasítást a programhoz,
+- használati utasítást a program saját használatra való beüzemeléséhez,
   
 - a teljes notebookhoz vezető linket,
 
