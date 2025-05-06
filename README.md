@@ -10,7 +10,7 @@ A kód megírásához a Google Colab (Jupyter Notebook) felületét használ
 
 30 epochos tanítás után a végső modell 76 % pontosságot ért el (azaz egy számára ismeretlen tesztképen körülbelül 76 % eséllyel mondta meg helyesen, hogy mi látható rajta).
 
-A README további részében megtalálod:
+### A README további részében megtalálod:
 
 - a modell tanítási és kiértékelési fázisának legfontosabb statisztikáit,
 
