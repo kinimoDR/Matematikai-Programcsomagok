@@ -1,7 +1,7 @@
 # Matematikai-Programcsomagok
 
 # Projekt: Konvolúciós neurális hálózat 
-# Készítette: Szeidemann Márton, Rákosy Dominik, Merencsics Martin Marcell
+# Készítette: Merencsics Martin Marcell, Rákosy Dominik, Szeidemann Márton
 
 ## Előnézet:
 Projektünkben egy kezdő klasszifikációs modellt építettünk fel, főként a PyTorch és NumPy könyvtárak segítségével. Modellünket körülbelül 14 000 darab, 224×224‑es felbontású ételfotón (FOOD‑14 adathalmaz) tanítottuk, 14 különböző kategóriára.
