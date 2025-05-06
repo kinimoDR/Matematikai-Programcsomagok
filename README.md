@@ -77,7 +77,7 @@ Loss és accuracy változása:
 ![Loss és accuracy változása](Loss_es_accuracy.png)
 
 ### Segédanyagok listája:
-- FOOD-14 adathalmaz
+- FOOD-14 adathalmaz: https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/?fbclid=IwZXh0bgNhZW0CMTEAAR4HHFEoVWwEQuy70Z4Aq69MbNzZw8pHLFlpfj4G-Omh-_5FWWVTO4a8S24AjA_aem_fsRZYGFsvNDhdtYHCDkWVg
 - A Pytorch dokumentációja: https://pytorch.org/docs/stable/index.html
 - Rácz Dániel előadás-sorozata: https://github.com/DamasdiGabor/matprog2024-25/blob/main/MATPROG_Eloadas_6es7.pdf
 - Iván által összeállított gyakorlati segédanyag: https://colab.research.google.com/drive/18JwxaWra64n_LHgA1oOuF2pxozM6n8jE
