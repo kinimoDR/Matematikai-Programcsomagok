@@ -67,8 +67,10 @@ jupyter notebook Matprogrind2.ipynb <br>
 Confusion matrix:
 ![Confusion matrix](Confusion_matrix.png)
 
+Predikciók az első 13 tesztképre:
 ![Predikciók az első 13 tesztképre](13_kep.png)
 
+Loss és accuracy változása:
 ![Loss és accuracy változása](Loss_es_accuracy.png)
 
 ### A kód elérési linkje: 
@@ -81,3 +83,10 @@ https://colab.research.google.com/drive/1vRqt2sXcfFtVR7j0cl4WLBtNMiMATbqg#scroll
 - Tanítás
 - Kiértékelés 
 - Statisztika
+
+### Segédanyagok listája:
+- FOOD-14 adathalmaz
+- A Pytorch dokumentációja: https://pytorch.org/docs/stable/index.html
+- Rácz Dániel előadás-sorozata: https://github.com/DamasdiGabor/matprog2024-25/blob/main/MATPROG_Eloadas_6es7.pdf
+- Iván által összeállított gyakorlati segédanyag: https://colab.research.google.com/drive/18JwxaWra64n_LHgA1oOuF2pxozM6n8jE
+- ChatGPT
