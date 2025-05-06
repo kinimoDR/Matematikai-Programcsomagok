@@ -24,7 +24,7 @@ A kód megírásához a Google Colab (Jupyter Notebook) felületét használ
 
 - valamint az általunk használt segédanyagok listáját.
 
-#### Előfeltételek
+#### Előfeltételek:
 
 - Python 3.10 vagy újabb
 
@@ -38,7 +38,7 @@ A kód megírásához a Google Colab (Jupyter Notebook) felületét használ
 
 - tqdm (progress‑bar‑ok)
 
-#### Futtatás és használat
+#### Futtatás és használat:
 
 - Colab‑ban: https://colab.research.google.com/github/<felhasznalo>/<repo>/blob/main/Matprogrind2.ipynb
     - Válaszd a Runtime > Change runtime type > GPU opciót, majd Run all.
@@ -59,9 +59,9 @@ jupyter notebook Matprogrind2.ipynb <br>
 - Kiértékelés 
 - Statisztika
 
-#### Modell és eredmények
+#### Modell és eredmények:
 - Architektúra: 10 konvolúciós réteg, max‑pool, batch norm és ReLU blokkok, majd 2 fully‑connected réteg; a kimenet 14 neuronos softmax.
-- Paraméterek: kb. 5,6 millió tanulható paraméter
+- Paraméterek: kb. 9,6 millió 
 - Optimalizáló: AdamW (tanulási ráta 1e‑4, weight_decay 1e‑2)
 - Learning‑rate scheduler: exponenciális (gamma 0,95 epochonként)
 - Early Stopping: patience 10, legjobb checkpoint models/cnn.pt
