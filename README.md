@@ -57,8 +57,11 @@ A kód megírásához a Google Colab (Jupyter Notebook) felületét használ
 - Statisztika
 
 #### Futtatás és használat (Google Colabban):
-  1. Nyisd meg a Google Colab linket és jelentkezz be egy Google Drive fiókba
-  2. 
+  1. Nyisd meg a Google Colab linket és jelentkezz be egy Google Drive fiókba.
+  2. Futtasd az 1-6. cellákat.
+     - Ha új modellt szeretnél létrehozni, akkor futtasd a 7. cellát.
+     - Ha a meglévő modelled szeretnéd használni (például kiértékelni vagy továbbtanítani), akkor töltsd fel annak elérési útvonalát a Google Drive meghajtódra, majd a 8. cellában helyettesítsd a példába a megfelelő         linket.
+     - 
 ### A kód elérési linkje: 
 https://colab.research.google.com/drive/1vRqt2sXcfFtVR7j0cl4WLBtNMiMATbqg#scrollTo=eIOFKIQNOl1r
 
