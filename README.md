@@ -69,6 +69,9 @@ A kód megírásához a Google Colab (Jupyter Notebook) felületét használ
 ### A kód elérési linkje: 
 https://colab.research.google.com/drive/1vRqt2sXcfFtVR7j0cl4WLBtNMiMATbqg#scrollTo=eIOFKIQNOl1r
 
+### Modell linkje:
+https://drive.google.com/file/d/1ZRRA0lTy2cAhqYTZSZHQpnN8QwBrnVTB/view?usp=drive_link
+
 ### Képtesztelő:
 https://colab.research.google.com/drive/1yzO-0z7EjpMd_zm0_lEMssianC9PbVro#scrollTo=YXVFuCjYQGip
 
