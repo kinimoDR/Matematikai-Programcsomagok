@@ -49,7 +49,15 @@ jupyter notebook Matprogrind2.ipynb <br>
 **Inference gyorsan (parancssorból):**
     python predict.py path/to/image.jpg
     A predict.py a notebookból kivágott inferencia‑függvényre épül, és a képernyőre kiírja a top‑1 (és opcionálisan top‑3) találatot.
-
+### Vázlatos felépítése:
+- Képek feltöltése
+- Adathalmazok létrehozása 
+- A konvolúciós neurális háló (CNN) definiálása
+- Előkészületek a tanításhoz/futtatókörnyezet és optimalizáló beállítása
+- Tanítás
+- Kiértékelés 
+- Statisztika
+- 
 **Modell és eredmények**
 - Architektúra: 10 konvolúciós réteg, max‑pool, batch norm és ReLU blokkok, majd 2 fully‑connected réteg; a kimenet 14 neuronos softmax.
 - Paraméterek: kb. 5,6 millió tanulható paraméter
@@ -64,6 +72,9 @@ jupyter notebook Matprogrind2.ipynb <br>
 - Átlagos top‑3: 93 %
 - Macro‑F1: 0,74
 
+### A kód elérési linkje: 
+https://colab.research.google.com/drive/1vRqt2sXcfFtVR7j0cl4WLBtNMiMATbqg#scrollTo=eIOFKIQNOl1r
+
 Confusion matrix:
 ![Confusion matrix](Confusion_matrix.png)
 
@@ -72,17 +83,6 @@ Predikciók az első 13 tesztképre:
 
 Loss és accuracy változása:
 ![Loss és accuracy változása](Loss_es_accuracy.png)
-
-### A kód elérési linkje: 
-https://colab.research.google.com/drive/1vRqt2sXcfFtVR7j0cl4WLBtNMiMATbqg#scrollTo=eIOFKIQNOl1r
-### Vázlatos felépítése:
-- Képek feltöltése
-- Adathalmazok létrehozása 
-- A konvolúciós neurális háló (CNN) definiálása
-- Előkészületek a tanításhoz/futtatókörnyezet és optimalizáló beállítása
-- Tanítás
-- Kiértékelés 
-- Statisztika
 
 ### Segédanyagok listája:
 - FOOD-14 adathalmaz
