@@ -43,13 +43,6 @@ A kód megírásához a Google Colab (Jupyter Notebook) felületét használ
 - Colab‑ban: https://colab.research.google.com/github/<felhasznalo>/<repo>/blob/main/Matprogrind2.ipynb
     - Válaszd a Runtime > Change runtime type > GPU opciót, majd Run all.
 
-- Lokálisan: <br>
-
-  git clone https://github.com/<felhasznalo>/<repo>.git <br>
-  cd <repo> <br>
-pip install -r requirements.txt <br>
-jupyter notebook Matprogrind2.ipynb <br>
-
 #### Modell és eredmények:
 - Architektúra: 10 konvolúciós réteg, max‑pool, batch norm és ReLU blokkok, majd 2 fully‑connected réteg; a kimenet 14 neuronos softmax.
 - Paraméterek: kb. 9,6 millió 
